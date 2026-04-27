@@ -1,4 +1,4 @@
-# LeetCode-Solutions
+# LeetCode Solutions
 
 Python solutions to LeetCode problems, organized by problem number.
 
@@ -11,6 +11,7 @@ Python solutions to LeetCode problems, organized by problem number.
 | # | Problem | Difficulty | Topics | Key Technique |
 |---|---------|-----------|--------|---------------|
 | 1018 | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/) | Easy | Array, Math | Modulo to avoid overflow |
+| 1391 | [Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | Medium | Union Find, Matrix | Connect matching pipe openings |
 | 1559 | [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/) | Medium | Union Find, Matrix | Union-Find cycle detection |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | Easy | Math | Brute force with perfect square check |
 | 2615 | [Sum of Distances](https://leetcode.com/problems/sum-of-distances/) | Medium | Array, Hash Map | Prefix sum per group |
@@ -29,6 +30,6 @@ Each file follows the pattern: `{problem_number}_{problem_name}.py`
 | Difficulty | Count |
 |-----------|-------|
 | Easy | 6 |
-| Medium | 2 |
+| Medium | 3 |
 | Hard | 1 |
-| **Total** | **9** |
+| **Total** | **10** |
