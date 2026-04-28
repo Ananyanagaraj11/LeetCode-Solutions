@@ -14,6 +14,7 @@ Python solutions to LeetCode problems, organized by problem number.
 | 1391 | [Check if There is a Valid Path in a Grid](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | Medium | Union Find, Matrix | Connect matching pipe openings |
 | 1559 | [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/) | Medium | Union Find, Matrix | Union-Find cycle detection |
 | 1925 | [Count Square Sum Triples](https://leetcode.com/problems/count-square-sum-triples/) | Easy | Math | Brute force with perfect square check |
+| 2033 | [Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) | Medium | Array, Math, Sorting | Median minimizes total absolute steps |
 | 2615 | [Sum of Distances](https://leetcode.com/problems/sum-of-distances/) | Medium | Array, Hash Map | Prefix sum per group |
 | 2833 | [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | Easy | String, Counting | All wildcards go same direction |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | Easy | Array, Math | Total sum parity determines all partitions |
@@ -30,6 +31,6 @@ Each file follows the pattern: `{problem_number}_{problem_name}.py`
 | Difficulty | Count |
 |-----------|-------|
 | Easy | 6 |
-| Medium | 3 |
+| Medium | 4 |
 | Hard | 1 |
-| **Total** | **10** |
+| **Total** | **11** |
