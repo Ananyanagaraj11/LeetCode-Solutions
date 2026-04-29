@@ -17,6 +17,7 @@ Python solutions to LeetCode problems, organized by problem number.
 | 2033 | [Minimum Operations to Make a Uni-Value Grid](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) | Medium | Array, Math, Sorting | Median minimizes total absolute steps |
 | 2615 | [Sum of Distances](https://leetcode.com/problems/sum-of-distances/) | Medium | Array, Hash Map | Prefix sum per group |
 | 2833 | [Furthest Point From Origin](https://leetcode.com/problems/furthest-point-from-origin/) | Easy | String, Counting | All wildcards go same direction |
+| 3225 | [Maximum Score From Grid Operations](https://leetcode.com/problems/maximum-score-from-grid-operations/) | Hard | DP, Matrix, Prefix Sum | Column DP with prefix/suffix optimization |
 | 3432 | [Count Partitions with Even Sum Difference](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | Easy | Array, Math | Total sum parity determines all partitions |
 | 3464 | [Maximize the Distance Between Points on a Square](https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/) | Hard | Binary Search, Greedy | Binary search on answer + greedy check |
 | 3512 | [Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/) | Easy | Array, Math | sum(nums) % k |
@@ -32,5 +33,5 @@ Each file follows the pattern: `{problem_number}_{problem_name}.py`
 |-----------|-------|
 | Easy | 6 |
 | Medium | 4 |
-| Hard | 1 |
-| **Total** | **11** |
+| Hard | 2 |
+| **Total** | **12** |
