@@ -1,0 +1,28 @@
+name: Cleanup Duplicates
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Delete duplicate files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git rm -f 1018_binary_prefix_divisible_by_5.py || true
+          git rm -f 1391_check_if_there_is_a_valid_path_in_a_grid.py || true
+          git rm -f 1559_detect_cycles_in_2d_grid.py || true
+          git rm -f 1925_count_square_sum_triples.py || true
+          git rm -f 2033_minimum_operations_to_make_a_uni_value_grid.py || true
+          git rm -f 2615_sum_of_distances.py || true
+          git rm -f 2833_furthest_point_from_origin.py || true
+          git rm -f 3225_maximum_score_from_grid_operations.py || true
+          git rm -f 3432_count_partitions_with_even_sum_difference.py || true
+          git rm -f 3464_maximize_the_distance_between_points_on_a_square.py || true
+          git rm -f 3512_minimum_operations_to_make_array_sum_divisible_by_k.py || true
+          git rm -f 3783_mirror_distance_of_an_integer.py || true
+          git commit -m "Remove duplicate manual uploads"
+          git push
