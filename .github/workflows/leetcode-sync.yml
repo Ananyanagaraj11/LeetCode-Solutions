@@ -1,4 +1,4 @@
-name: Sync LeetCode
+name: Sync Leetcode
 
 on:
   workflow_dispatch:
@@ -12,6 +12,6 @@ jobs:
       - name: Sync
         uses: joshcai/leetcode-sync@v1.7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ github.token }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
